@@ -49,3 +49,45 @@ body {
     margin-left: 48px;
     margin-right: 48px;
 }
+
+.music_container {
+    width: 354px;
+    height: 98px;
+    margin-top: 20px;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding: 25px 24px 25px 24px;
+    border-radius: 11px;
+    background: #f7f9ff;
+    display: flex;
+    align-items: center;
+}
+
+.music_icon {
+    width: 48px;
+    height: 48px;
+}
+
+.price { margin-left: 20px; }
+
+.price > h4 {
+    font-weight: 900;
+    font-size: 16px;
+    color: #1f2e55;
+}
+
+.price > span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #717fa6;
+    margin-top: 6px;
+}
+
+.change { 
+    margin-left: 68px; 
+    width: 52px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #382ae1;
+}
