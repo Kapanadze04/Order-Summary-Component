@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+
+/* Colors */
+
+:root {
+    --bgColor: #E0E8FF;
+    --white: #FFFFFF;
+    --black55: #1f2e55;
+    --gray6: #717fa6;
+    --whiteF: #f7f9ff;
+    --blue1: #382ae1;
+    --hoverBtn: #766CF1;
+}
+
+/* Colors */
+
 body {
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
@@ -14,12 +29,12 @@ body {
     min-height: 100vh;
     background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-color: #E0E8FF;
+    background-color: var(--bgColor);
 }
 
 .card {
     width: 450px;
-    background-color: white;
+    background-color: var(--white);
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
     border-radius: 20px;
 }
@@ -35,7 +50,7 @@ body {
     font-weight: 900;
     font-size: 28px;
     text-align: center;
-    color: #1f2e55;
+    color: var(--black55);
 }
 
 .card > p {
@@ -45,7 +60,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    color: #717fa6;
     margin-left: 48px;
     margin-right: 48px;
 }
@@ -58,7 +72,6 @@ body {
     margin-right: 48px;
     padding: 25px 24px 25px 24px;
     border-radius: 11px;
-    background: #f7f9ff;
     display: flex;
     align-items: center;
 }
@@ -73,13 +86,13 @@ body {
 .price > h4 {
     font-weight: 900;
     font-size: 16px;
-    color: #1f2e55;
+    color: var(--black55);
 }
 
 .price > span {
     font-weight: 500;
     font-size: 16px;
-    color: #717fa6;
+    color: var(--gray6);
     margin-top: 6px;
 }
 
@@ -89,7 +102,12 @@ body {
     height: 19px;
     font-weight: 700;
     font-size: 14px;
-    color: #382ae1;
+    color: var(--blue1);
+}
+
+.change:hover {
+    color: var(--hoverBtn);
+    text-decoration: none;
 }
 
 .payment {
@@ -102,9 +120,13 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: #382AE1;
+    background: var(--blue1);
     box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
     border-radius: 11px;
+}
+
+.payment:hover {
+    background-color: var(--hoverBtn);
 }
 
 .payment > h5 {
@@ -112,7 +134,7 @@ body {
     height: 20px;
     font-weight: 900;
     font-size: 15px;
-    color: white;
+    color: var(--white);
 }
 
 h6 {
@@ -122,7 +144,11 @@ h6 {
 
     font-weight: 900;
     font-size: 15px;
-    color: #717fa6;
+    color: var(--gray6);
+}
+
+h6:hover {
+    color: var(--black55);
 }
 
 .payment:hover,
