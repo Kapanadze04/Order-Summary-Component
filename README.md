@@ -1,5 +1,9 @@
-# Order-summary-component
+# Order-Summary-Component
 
 ## Summary
 
-- A simple example of a summary order card.
+- Frontendmentor challenge. Where a photo, text, icon is imported. I use flexbox and added hover effects.
+
+### Live Server
+
+- https://kapanadze04.github.io/Order-Summary-Component/
