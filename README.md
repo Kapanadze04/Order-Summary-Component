@@ -2,7 +2,7 @@
 
 ## Summary
 
-- Frontendmentor challenge. Where a photo, text, icon is imported. I use flexbox and added hover effects.
+- Frontendmentor challenge. Where a photo, text, or icon is imported. I used Flexbox and added hover effects.
 
 ### Live Server
 
